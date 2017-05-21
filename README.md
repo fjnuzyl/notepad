@@ -1,7 +1,7 @@
 # NotePad
 This is an AndroidStudio rebuild of google SDK sample NotePad
-#基本功能一 时间戳
-思路： 修改时间的字段在notepad已经存在 只需要修改一下projection把 modifytime显示出来
+# 基本功能一 时间戳   
+思路： 修改时间的字段在notepad已经存在 只需要修改一下projection把 modifytime显示出来       
    private static final String[] PROJECTION = new String[] {
             NotePad.Notes._ID, // 0
             NotePad.Notes.COLUMN_NAME_TITLE,
@@ -13,7 +13,7 @@ This is an AndroidStudio rebuild of google SDK sample NotePad
      
 ![Alt text](https://github.com/fjnuzyl/notepad/blob/master/images/time.jpg)
 
-#基本功能一 查询功能
+# 基本功能一 查询功能
 思路： 在list_options_menu中一个menuitem 在onOptionsItemSelected方法中的switch里添加
   case R.id.menu_search:
               android.app.AlertDialog.Builder builder = new android.app.AlertDialog.Builder(this);
@@ -58,7 +58,7 @@ This is an AndroidStudio rebuild of google SDK sample NotePad
 
 ![Alt text](https://github.com/fjnuzyl/notepad/blob/master/images/searchtwo.jpg)
 
-#附加功能美化ui
+# 附加功能美化ui
 思路 更改主体
    <activity android:name="NotesList"
             android:theme="@android:style/Theme.Holo"
@@ -66,7 +66,7 @@ This is an AndroidStudio rebuild of google SDK sample NotePad
             
    ![Alt text](https://github.com/fjnuzyl/notepad/blob/master/images/theme.jpg)
    
- #附加功能 更改背景颜色
+ # 附加功能 更改背景颜色
  思路  根据 getListView().setBackgroundColor(Color);更改背景颜色
  在list_options_menu中一个menuitem 取名为color 在onOptionsItemSelected方法中的switch里添加
    case R.id.color:
