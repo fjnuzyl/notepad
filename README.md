@@ -122,5 +122,5 @@ This is an AndroidStudio rebuild of google SDK sample NotePad
                 });  
                 return true;  
                  
-               ![Alt text](https://github.com/fjnuzyl/notepad/blob/master/images/color.jpg)  
+![Alt text](https://github.com/fjnuzyl/notepad/blob/master/images/color.jpg)  
                
